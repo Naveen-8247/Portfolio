@@ -1,0 +1,143 @@
+
+.header {
+  background-color: #0e1a2b;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 2px 8px rgba(77, 181, 255, 0.2);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon {
+  font-size: 2rem;
+  color: #4db5ff;
+}
+
+.logo-text {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/* Desktop nav links */
+.desktop-nav {
+  display: block;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  padding-left: 0;
+  margin: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.1rem;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-links li a:hover,
+.nav-links li a:focus {
+  font-size: 20px;
+  color: #4db5ff;
+  font-weight: bold;
+}
+
+
+.nav-links li a.active {
+  position: relative;
+  color: #4db5ff;
+  font-weight: 600;
+}
+
+.nav-links li a.active::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  background-color: #4db5ff;
+  border-radius: 1px;
+}
+
+
+.hamburger {
+  display: none;
+  font-size: 1.8rem;
+  color: #4db5ff;
+  cursor: pointer;
+}
+
+
+.mobile-nav {
+  display: none;
+}
+
+.mobile-nav.show {
+  display: block;
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  background-color: #0e1a2b;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(77, 181, 255, 0.2);
+  padding: 10px 20px;
+  z-index: 998;
+}
+
+.mobile-nav .nav-links {
+  flex-direction: column;
+  display: flex;
+  gap: 12px;
+}
+
+.mobile-nav .nav-links li a {
+  font-size: 1rem;
+  padding: 8px 12px;
+  color: #ffffff;
+}
+
+.mobile-nav .nav-links li a:hover {
+  background-color: #4db5ff;
+  color: #0e1a2b;
+}
+
+.mobile-nav .nav-links li a.active {
+  color: #4db5ff;
+  border-bottom: 2px solid #4db5ff;
+}
+
+
+@media screen and (max-width: 768px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+
+[id] {
+  scroll-margin-top: 80px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
