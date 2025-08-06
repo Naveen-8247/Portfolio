@@ -1,6 +1,6 @@
 import './index.css'
 import { useState, useEffect } from 'react'
-import { FaGithub, FaLinkedinIn, FaEnvelope, FaDownload } from 'react-icons/fa'
+import { FaGithub, FaLinkedinIn, FaEnvelope, FaEye } from 'react-icons/fa'
 
 const roles = ['Full Stack Developer','Frontend Developer','Backend Developer','Web Developer']
 
@@ -69,14 +69,15 @@ const Hero = () => {
             <FaEnvelope />
           </a>
         </div>
-        <a
-          href="https://drive.google.com/file/d/1Gc-T0gzYHgIWfW-18Af86pyYvO52smTq/view?usp=drive_link"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="resume-btn"
-        >
-          View Resume <FaDownload />
-        </a>
+       <a
+  href="https://drive.google.com/file/d/1Gc-T0gzYHgIWfW-18Af86pyYvO52smTq/view?usp=drive_link"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="resume-btn"
+>
+  View Resume <FaEye />
+</a>
+
       </div>
     </section>
   )
