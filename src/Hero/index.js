@@ -75,7 +75,7 @@ const Hero = () => {
           rel="noopener noreferrer"
           className="resume-btn"
         >
-          Download Resume <FaDownload />
+          View Resume <FaDownload />
         </a>
       </div>
     </section>

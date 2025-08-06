@@ -103,7 +103,6 @@
   border-radius: 50%;
   border: 6px solid #4db5ff;
   object-fit: cover;
-  object-position: top center; /* 👈 ensures head is fully visible */
   box-shadow: 0 0 20px rgba(77, 181, 255, 0.7);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
