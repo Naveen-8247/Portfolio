@@ -70,7 +70,7 @@ const Hero = () => {
           </a>
         </div>
        <a
-          href="https://drive.google.com/file/d/1Gc-T0gzYHgIWfW-18Af86pyYvO52smTq/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1nMtHg_T1k6YTsqWck_hfg3OJk7FaGOvq/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="resume-btn"
