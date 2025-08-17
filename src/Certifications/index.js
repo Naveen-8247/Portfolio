@@ -3,6 +3,12 @@ import { FaExternalLinkAlt, FaRegCalendarAlt } from 'react-icons/fa'
 
 const certifications = [
   {
+  title: 'HackerRank Certification',
+  date: '07 Aug, 2025',
+  img: 'https://res.cloudinary.com/dcy78sibl/image/upload/v1755453727/Screenshot_2025-08-17_192829_qwx9y7.png',
+  url: 'file:///C:/Users/dyava/Downloads/software_engineer%20certificate.pdf'
+},
+  {
     title: 'Deloitte Virtual Internship',
       date: 'July 2025',
     img: 'https://res.cloudinary.com/dcy78sibl/image/upload/v1753604649/Screenshot_2025-07-27_132008_ilcytf.png',
